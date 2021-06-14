@@ -1,0 +1,195 @@
+<html>
+<head>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap" rel="stylesheet">
+<title> STP MANAGEMENT </title>
+<link rel="stylesheet" type="text/css" href="css.css">
+<script>
+function scrollWin() {
+  window.scrollBy(0, 360);
+}
+function scrollWin2() {
+  window.scrollBy(0 , 1200);
+}
+function scrollWin3() {
+  window.scrollBy(0 , 1600);
+}
+function scrollWin4() {
+  window.scrollBy(0 , 2400);
+}
+</script>
+</head>
+<body>
+  <div id="divmain">
+	<div id="stplogo">
+    <img id="logo" src="STPtest.png">
+	</div>
+  <div id="div001">
+    <input type="image" id="imgt" onclick="location.href='https://twitter.com/management_stp'" src="twitter.png">
+    <input type="image" id="imgf" onclick="location.href='https://www.facebook.com/STP-Management-101527985257165'" src="fb-logo.png">
+  </div>
+  <br>
+  <div id="span001">
+  <ul>
+    <li><button onclick="location.href='home.html'"class="button1" id="home">Home</button></li>
+    &emsp;
+    <li><button onclick="scrollWin()"id="packages"class="button1">Packages</button></li>
+    &emsp;
+    <li><button onclick="scrollWin2()"id="Offers"class="button1">Why STP</button></li>
+    &emsp;
+    <li><button onclick="scrollWin3()"id="web"class="button1">Payment</button></li>
+    &emsp;
+    <li><button onclick="scrollWin4()"id="contact"class="button1">Contact Us</button></li>
+    &emsp;
+    <li><button onclick="location.href='Complaints.html'"id="complaints"class="button1">Complaints</button></li>
+    &emsp;
+    <li><button onclick="location.href='server.html'"id="server"class="button1">Server Hosting</button></li>
+    &emsp;
+    <li><button onclick="location.href='domain.html'"id="server"class="button1">Domain Hosting</button></li>
+    &emsp;
+    <span id="logo001">
+    &nbsp;&nbsp;&emsp;&emsp;
+    <input type="button" onclick="location.href='sign.html'" class="button1" value="Log In"</button>
+    <input type="button" onclick="location.href='Signup.html'" class="button1" value="Sign Up"</button>
+
+  </span>
+
+  </ul>
+
+  </div>
+
+  <br>
+  <br>
+
+<div id="mainbody">
+
+  <h1 id="h11">OUR  BEST-SELLING PACKAGES &emsp;&emsp;&emsp;&emsp;</h1>
+
+<div class="line"></div>
+
+<div id="bannerimg" class="image">
+
+<img class="banner1" src="Ibad-Banner.jpg">
+
+<div class="image_overlay image_overlay-blur">
+
+<div><input type="button" class="btn" value="Order Now" onclick="location.href='Signup.html'"/></div>
+
+</div>
+
+<p id="disclaimer">(one time installition not included*) </p>
+
+</div>
+
+<br>
+<br>
+
+<div class='line'></div>
+
+<div class="image">
+
+<img class="banner1" src="100MB.jpg">
+
+<div class="image_overlay image_overlay-blur">
+
+<div><input type="button" class="btn1" value="Order Now" onclick="location.href='Signup.html'"/></div>
+
+</div>
+
+<p id="disclaimer">(one time installition not included*) </p>
+
+</div>
+
+<br>
+<br>
+
+<div class='line'></div>
+
+<div class="image">
+
+<img class="banner1" src="20mb.png">
+
+<div class="image_overlay image_overlay-blur">
+
+<div><input type="button" class="btn2" value="Order Now" onclick="location.href='Signup.html'"/></div>
+
+</div>
+
+<p id="disclaimer">(one time installition not included*) </p>
+
+</div>
+
+<br>
+<br>
+
+<button onclick="location.href='packages.html'"id="packages" class="b1">More Packages</button>
+
+<br>
+
+<div class='line'></div>
+
+<h1 id="h1"> Why STP? </h1>
+
+<div id="why">
+
+    <img class="whyimg" src="anno.png">
+
+    <img class="whyimg" src="cust.png">
+
+    <img id="cost" class="whyimg" src="cost.png">
+
+</div>
+
+
+<div class = "payment" class="line"></div>
+
+<div class="line"></div>
+
+<h1 id="h1"> Payment Options </h1>
+
+<p id="pay"> We have provided our customers plenty of options by which they <br>
+  can pay their monthly subscription with ease.</p>
+  
+  <ul>
+    <li><p id="payli">Jazz Cash</p></li>
+    <li><p id="payli">Easypaisa</p></li>
+    <li><p id="payli">Online Payment through Debit/Credit Card</p></li>
+    <li><p id="payli">Through invoice at your nearest HBL Bank</p></li>
+  </ul>
+
+<p id="pay">You will be notified 7 days before subscription expiry <br>
+  In case of expiry, you just have to pay the monthly subscription </p>
+</div>
+  <div class='line'></div>
+
+<div id="divend">
+
+<span>
+
+  <ul>
+    <li><a class="a01" onclick="location.href='home.html'"id="home">Home</a></li>
+    <li><a class="a01" onclick="location.href='Sign.html'"id="login">Log In</a></li>
+    <li><a class="a01" onclick="location.href='Signup.html'"id="signup">Sign Up</a></li>
+    <li><a class="a01" onclick="location.href='complaints.html'"id="complaints">Complaints</a></li>
+    <div id="number">
+<span>
+
+  <img id="num" src="num.png"><p> 021-111-(STP)-768-76 </p>
+
+</span>
+
+    </div>
+
+</span>
+
+  <p id="endp" >© 2021 All rights reserved. </p>
+  <p id="endp" class="ol">STP Management. In Association with KSA Builds. </p>
+  <p id="endp" class="ol">And sponsored by Aaron ltd. </p>
+  <p id="endp" class="ol"> Contact Us</p>
+  <p id="endp" class="ol"> Help-line:&nbsp; 021-111-(STP)-768-76 </p>
+  <p id="endp" class="ol"> Head Office:&nbsp; 4-Club Road opposite Karachi GYM Khana, Karachi, Sindh </p>
+
+</div>
+
+</body>
+</html>
