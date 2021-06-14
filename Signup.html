@@ -1,0 +1,166 @@
+<!Doctype html>
+<html>
+<head>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap" rel="stylesheet">
+<title> STP MANAGEMENT </title>
+<link rel="stylesheet" type="text/css" href="css.css">
+<title>Sign Up</title>
+<script>
+function submit(){
+window.location.href="TOPEND.html";
+}
+function foorm()
+{
+ var pass = document.getElementById('pass').value;
+ var cpass = document.getElementById('cpass').value;
+ if(pass != cpass)
+ {
+   window.alert("These passwords do not match");
+ }
+ if(pass == cpass)
+ {
+   var element = document.getElementById('cc');
+
+     document.getElementById('cc').style.opacity = "1.0";
+
+ }
+}
+function sign()
+{
+ var element = document.getElementById('b1');
+
+ if(document.getElementById("box1").checked)
+ {
+   document.getElementById('b1').style.opacity = "1.0";
+ }
+}
+function winpack()
+{
+ window.location.href='home.html';
+}
+
+</script>
+<style>
+h1{
+  margin-left: 45%;
+}
+#cc{
+  opacity: 0;
+  background-color: #959595;
+}
+#b1{
+  position: relative;
+  opacity: 0;
+  margin-right:40%;
+}
+</style>
+</head>
+
+<body>
+  <div id="divmain">
+    <div id="divmain">
+      <img id="logo" src="STPtest.png">
+    <div id="div001">
+      <input type="image" id="imgt" onclick="location.href='https://twitter.com/management_stp'" src="twitter.png">
+      <input type="image" id="imgf" onclick="location.href='https://www.facebook.com/STP-Management-101527985257165'" src="fb-logo.png">
+    </div>
+    <br>
+    <div id="span001">
+    <ul>
+      <li><button onclick="location.href='home.html'"class="button1" id="home">Home</button></li>
+      &emsp;
+      <li><button onclick="location.href='packages.html'"id="packages"class="button1">Packages</button></li>
+      &emsp;
+      <li><button onclick="location.href='WhySTP.html'"id="Offers"class="button1">Why STP</button></li>
+      &emsp;
+      <li><button onclick="location.href='Payment.html'"id="web"class="button1">Payment</button></li>
+      &emsp;
+      <li><button onclick="location.href='Contact.html'"id="contact"class="button1">Contact Us</button></li>
+      &emsp;
+      <li><button onclick="location.href='Complaints.html'"id="complaints"class="button1">Complaints</button></li>
+      &emsp;
+      <li><button onclick="location.href='server.html'"id="server"class="button1">Server Hosting</button></li>
+      &emsp;
+      <li><button onclick="location.href='domain.html'"id="server"class="button1">Domain Hosting</button></li>
+      &emsp;
+      <span>
+      &nbsp;&nbsp;&emsp;&emsp;
+      <input type="button" onclick="location.href='sign.html'" class="button1" value="Log In"</button>
+      <input type="button" onclick="location.href='Signup.html'" class="button1" value="Sign Up"</button>
+    </span>
+    </ul>
+    </div>
+  </div>
+  <br>
+  <br>
+  <h1> Sign Up </h1>
+<div id="form">
+<form method="post" action="TOPEND.html">
+ <p class="formt">&emsp;&emsp;Enter Your Full Name: <input type="text" id="Fname" class="formt" required minlength="8" name="fname" placeholder="Enter your full name"/>&emsp;&emsp;Enter Your Username: <input type="text" id="name"required minlength="6"  class="formt" required minlength="4" name="uname" placeholder="Enter your username"/>
+ <br>
+ <div class='line'></div>
+ <br>
+ <p class="formt">&emsp;&emsp;Enter Your Password: <input type="password" id="pass" required minlength="6" name="Password" placeholder="Enter your password"/> &nbsp;&nbsp;&nbsp;&emsp; Confirm Password: <input type="password" id="cpass" required minlength="6" name="Confirm_Password" placeholder="Enter your password again"/>
+ <br>
+ <div class='line'></div>
+ <br>
+ <p class="formt">&emsp;&emsp;Enter Your Cnic: <input type="number" id="Cnic" name="cnic" required minlength="13" placeholder="Enter your cnic"/> &emsp;&emsp;&emsp;&emsp;&nbsp;Enter Your Date Of Birth: <input type="date" id="Date of birth" name="date of birth" placeholder="Enter your date of birth"/>
+ <br>
+ <div class='line'></div>
+ <br>
+ <p class="formt">&emsp;&emsp;Enter Occupation: <input type="text" id="Occupation" name="occupation" required minlength="4" placeholder="Enter occupation"/>&emsp;&emsp;&emsp;&nbsp;&nbsp;Enter Your City: <input type="text" id="City" name="city" required minlength="4" placeholder="Enter your city"/>
+ <br>
+ <div class='line'></div>
+ <br>
+ <p class="formt">&emsp;&emsp;Enter Home Address: <input type="text" id="Home Address" required minlength="20" name="haddress" placeholder="Enter your home address"/>&emsp;&emsp;Enter Postal Code: <input type="number" id="Postal Code" name="pcode"maxlength="5" placeholder="Enter your postal code"/>
+ <br>
+<div class='line'></div>
+ <br>
+ <p class="formt">&emsp;&emsp;Enter Email Address: <input type="email" id="Email Address" name="email" required minlength="9" placeholder="Enter your email address"/>&emsp;&emsp;&nbsp;Enter Mobile Number: <input type="number" id="Mobile Number" name="mobile no." required minlength="10" maxlength="13" placeholder="Enter your mobile number"/>
+ <br>
+<div class='line'></div>
+ <br>
+ <p class="formt">&emsp;&emsp;Enter Landline: <input type="number" id="Landline"required minlength="10" maxlength="13" placeholder="Enter landline"/>&emsp;&emsp;&nbsp;Select Service: <select id="dropdown">
+   <option value = "10 MB" selected>10 MBPS </option>
+   <option value = "100 MB" selected> 100 MBPS </option>
+   <option value = "1 GBPS" selected> 1 GBPS </option>
+   <option value = "STANDARD-SERVER" selected>STANDARD-SERVER</option>
+   <option value=  "ENHANCED-SERVER" selected>ENHANCED-SERVER</option>
+  <option value="PREMIUM-SERVER" selected>PREMIUM-SERVER</option>
+  <option value="STANDARD=DOMAIN" selected>STANDARD-DOMAIN</option>
+  <option value="ENHANCED-DOMAIN" selected> ENHANCED-DOMAIN</option>
+  <option value="PREMIUM-SERVER" selected>PREMIUM-DOMAIN</option>
+</select>
+ <br><br></p>
+ <div class='line'></div>
+ <input type="radio" onclick="sign()" id="box1" >By checking this checkbox, You agree that you have entered the correct information
+ <br><br>
+ <input type="submit" id="cc" onclick="window.location="TOPEND.html"" value="Sign Up" size="20" id='button'><input type="button" value="Continue" id='b1'onclick="foorm()" onsubmit="">
+</form>
+
+</div>
+<div class='line'></div>
+<div id="divend">
+<span>
+  <ul>
+    <li><a class="a01" onclick="location.href='home.html'"id="home">Home</a></li>
+    <li><a class="a01" onclick="location.href='Sign.html'"id="login">Log In</a></li>
+    <li><a class="a01" onclick="location.href='Signup.html'"id="signup">Sign Up</a></li>
+    <li><a class="a01" onclick="location.href='complaints.html'"id="complaints">Complaints</a></li>
+    <div id="number">
+<span>
+  <img id="num" src="num.png"><p> 021-111-(STP)-768-76 </p>
+</span>
+    </div>
+</span>
+  <p id="endp" >© 2021 All rights reserved. </p>
+  <p id="endp" class="ol">STP Management. In Association with KSA Builds. </p>
+  <p id="endp" class="ol">And sponsored by Aaron ltd. </p>
+  <p id="endp" class="ol"> Contact Us</p>
+  <p id="endp" class="ol"> Help-line:&nbsp; 021-111-(STP)-768-76 </p>
+  <p id="endp" class="ol"> Head Office:&nbsp; 4-Club Road opposite Karachi GYM Khana, Karachi, Sindh </p>
+</div>
+
+</body>
+</html>
